@@ -10,7 +10,7 @@ body {
 
 /* Estilo da navbar */
 header {
-    background: #333;
+    background-color: blueviolet;
     color: #fff;
     padding: 10px 0;
 }
@@ -22,6 +22,7 @@ nav {
 }
 
 .container {
+    
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -53,15 +54,13 @@ nav {
 }
 
 /* Estilo do carrossel */
-.carousel {
-    background-image: url('sua-imagem-de-fundo.jpg');
+#logo {
+    background-image: url('img/LOGO\ png.png');
     background-size: cover;
     background-position: center;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    height: 70px;
+    width: 70px;
+    
 }
 
 /* Estilo do conteúdo principal */
@@ -101,3 +100,4 @@ footer {
         margin-bottom: 10px;
     }
 }
+
